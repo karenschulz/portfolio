@@ -1,6 +1,23 @@
+html {
+	font-family: "Arial";
+}
+	
 body {
 	background-color: white;
 }
 
-html {
-	font-family: "Arial";
+* {
+	link: font-color: white;
+}
+
+.label_karen_schulz {
+	font-color: white;
+}
+
+.nav_bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-color: #e69ccb;
+	font-color: white;
+}
