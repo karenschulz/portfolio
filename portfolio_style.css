@@ -1,5 +1,6 @@
 html {
 	font-family: "Arial";
+	font-color: #b5b0b3;
 }
 
 *, *::before, *::after {
@@ -24,4 +25,18 @@ a {
 	font-color: white;
 	height: 50px;
 	padding: 10px;
+	width: 100%;
+	
+}
+
+.welcome {	
+	background-color: #f7daed;
+	font-size: 30pt;
+	
+}
+
+body, footer {
+	padding-left: 100px;
+	padding-right: 100px;
+
 }
