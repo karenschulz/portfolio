@@ -2,7 +2,9 @@
 
 html {
 	font-family: "Fredericka the Great";
-	font-color: #b5b0b3;
+	color: #5f6161;
+	font-size: 10pt;
+	
 }
 
 *, *::before, *::after {
@@ -20,12 +22,20 @@ a {
 	text-align: center;
 }
 
+a:hover {
+	color: #e00dbd
+}
+
+a:focus{
+	color:#e00dbd;
+}
+
 p {
 	text-align: center;
 }
 
 h1, h2 {
-	color: #5f6161;
+	color: #b5b0b3;;
 	text-align: center;
 }
 
@@ -66,7 +76,7 @@ h1, h2 {
 	text-align: center;
 }
 
-.heading {
+/*.heading {
 	font-size: 20pt;
 	text-align: center;
 	display: flex;
@@ -74,7 +84,7 @@ h1, h2 {
 	flex-wrap: wrap;
 	padding-left: 50px;
 	padding-right: 50px;
-}
+}*/
 
 .links {
 	font-size:20pt;
@@ -83,35 +93,41 @@ h1, h2 {
 
 .portfolio_page {
 	background-color: #f7daed;
-	font-size: 10pt;
 	padding-bottom: 200px;
 	height: 90%;
-	text-align: right;
+	text-align:left;
+
 }
 
-.portfolio1 {
+.portfolio1, .portfolio2, .portfolio3 {
 	text-align: center;
-}
-
-.portfolio2 {
-	text-align: center;
-}
-
-.portfolio3 {
-	text-align: center;
+	font-size: 1rem;
 }
 
 article, footer {
 	padding-left: 150px;
 	padding-right: 150px;
-
 }
 
 .picture-of-me {
-	height: 220px;
-	
+	height: 220px;	
 }
 
 footer {
 	text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+		}	
+
+.first_work, .second_work, .third_work {
+	width: 50%;
+	}
+
+	h1 {
+		font-size: 1rem;
+	}
+
+/*.heading-element {
+	display: flex;
+	flex-wrap: nowrap;*/
