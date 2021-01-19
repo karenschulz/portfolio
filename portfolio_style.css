@@ -42,7 +42,21 @@ h1, h2 {
 	height: 90%;*/	
 }
 
-.article {
+.section {	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+}
+
+.portfolio {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 50px;
+	padding-right: 50px;
 	
 }
 
@@ -51,9 +65,19 @@ h1, h2 {
 	font-size: 30pt;
 	padding-bottom: 200px;
 	height: 90%;
-	
 }
 
+.links {
+	font-size:20pt;
+	text-align: center;
+}
+
+/*.portfolio_page {
+	background-color: #f7daed;
+	font-size: 10pt;
+	padding-bottom: 200px;
+	height: 90%;
+*/
 article, footer {
 	padding-left: 150px;
 	padding-right: 150px;
