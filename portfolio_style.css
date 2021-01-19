@@ -34,27 +34,13 @@ h1, h2 {
 	height: 50px;
 	padding: 10px;
 	width: 100%;
-}
 
-/*.heading {
-	display: flex;
-	flex-direction: row;
-	height: 90%;*/	
 }
 
 .section {	
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	padding-left: 50px;
-	padding-right: 50px;
-	
-}
-
-.portfolio {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 	padding-left: 50px;
 	padding-right: 50px;
 	
@@ -67,21 +53,41 @@ h1, h2 {
 	height: 90%;
 }
 
+.contact {
+	background-color: #f7daed;
+	font-size: 20pt;
+	padding-bottom: 200px;
+	padding-top: 100px;
+	height: 90%;
+	text-align: center;
+}
+
 .links {
 	font-size:20pt;
 	text-align: center;
 }
 
-/*.portfolio_page {
+.portfolio_page {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 50px;
+	padding-right: 50px;
 	background-color: #f7daed;
 	font-size: 10pt;
 	padding-bottom: 200px;
 	height: 90%;
-*/
+}
+
 article, footer {
 	padding-left: 150px;
 	padding-right: 150px;
 
+}
+
+.picture-of-me {
+	height: 220px;
+	
 }
 
 footer {
