@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Charm|Fredericka+the+Great');
+
 html {
-	font-family: "Arial";
+	font-family: "Fredericka the Great";
 	font-color: #b5b0b3;
 }
 
@@ -15,6 +17,12 @@ body {
 
 a {
 	color: white;
+	text-align: center;
+}
+
+h1, h2 {
+	color: #5f6161;
+	text-align: center;
 }
 
 .nav_bar {
@@ -22,16 +30,20 @@ a {
 	flex-direction: row;
 	justify-content: space-between;
 	background-color: #e69ccb;
-	font-color: white;
+	color: white;
 	height: 50px;
 	padding: 10px;
 	width: 100%;
 }
 
-.heading {
+/*.heading {
 	display: flex;
 	flex-direction: row;
-	height: 90%;	
+	height: 90%;*/	
+}
+
+.article {
+	
 }
 
 .welcome {	
@@ -42,8 +54,12 @@ a {
 	
 }
 
-body, footer {
-	padding-left: 100px;
-	padding-right: 100px;
+article, footer {
+	padding-left: 150px;
+	padding-right: 150px;
 
+}
+
+footer {
+	text-align: center;
 }
