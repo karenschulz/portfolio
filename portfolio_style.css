@@ -3,7 +3,7 @@
 html {
 	font-family: "Fredericka the Great";
 	color: #5f6161;
-	font-size: 10pt;
+	font-size: 1rem;
 	
 }
 
@@ -40,7 +40,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 50pt;
+	font-size: 5rem;
 }
 
 .nav_bar {
@@ -66,23 +66,49 @@ h1 {
 
 .welcome {	
 	background-color: #f7daed;
-	font-size: 30pt;
+	font-size: 3rem;
 	padding-bottom: 200px;
 	height: 90%;
 }
 
 .contact {
 	background-color: #f7daed;
-	font-size: 20pt;
+	font-size: 2rem;
 	padding-bottom: 200px;
 	padding-top: 100px;
 	height: 90%;
 	text-align: center;
 }
 
+.hello_stranger {
+	padding-bottom: 10px;
+	font-size: 5rem;
+}
+
+.email_me {
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.where {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 1.5rem;
+}
+
+.checkbox {
+	padding-bottom: 20px;
+	font-size: 1.5rem;
+}
+
+.enter_email {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
 .content {
 	background-color: #f7daed;
-	font-size: 10pt;
+	font-size: 1rem;
 	text-align: center;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -92,7 +118,7 @@ h1 {
 
 .my_portfolio {
 	background-color: #f7daed;
-	font-size: 10px;
+	font-size: 1rem;
 	text-align: center;
 	display: flex;
     flex-direction: column;
@@ -104,7 +130,7 @@ h1 {
 }
 
 .links {
-	font-size:20pt;
+	font-size: 2rem;
 	text-align: center;
 }
 
@@ -149,7 +175,10 @@ p {
 	}
 
 a {
-		font-size: 1rem;
+	font-size: 1rem;
 	}
+
+.hello_stranger {
+	font-size: 2rem;
 }
 
