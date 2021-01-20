@@ -39,6 +39,10 @@ h1, h2 {
 	text-align: center;
 }
 
+h1 {
+	font-size: 50pt;
+}
+
 .nav_bar {
 	display: flex;
 	flex-direction: row;
@@ -80,8 +84,18 @@ h1, h2 {
 	background-color: #f7daed;
 	font-size: 10pt;
 	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+	height: 90%;
+}
+
+.my_portfolio {
+	background-color: #f7daed;
+	font-size: 10px;
+	text-align: center;
 	display: flex;
-	flex-direction: row;
+    flex-direction: column;
 	flex-wrap: wrap;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -96,7 +110,7 @@ h1, h2 {
 
 .portfolio_page {
 	background-color: #f7daed;
-	padding-bottom: 100px;
+	padding-bottom: 10px;
 	height: 90%;
 
 }
@@ -112,25 +126,26 @@ article, footer {
 }
 
 .picture-of-me {
-	height: 220px;	
+	height: 220px;
 }
 
 footer {
 	text-align: center;
+	padding-bottom: 50px;
 }
 
-@media screen and (max-width: 600px) {	
+@media screen and (max-width: 600px) {
 
 .first_work, .second_work, .third_work {
 	width: 50%;
 	}
-	
+
 h1, h2 {
 	font-size: 2rem;
 	}
 
 p {
-		font-size: 1rem;
+	font-size: 1rem;
 	}
 
 a {
