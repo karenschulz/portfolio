@@ -3,7 +3,7 @@
 html {
 	font-family: "Fredericka the Great";
 	color: #5f6161;
-	font-size: 1rem;
+	font-size: 12px;
 	
 }
 
@@ -44,7 +44,7 @@ h1 {
 	font-size: 5rem;	
 }
 
-h3 { 
+.karen_schulz_name {
 	font-size: 2rem;
 	font-weight: normal;
 }
@@ -74,7 +74,7 @@ h3 {
 	background-color: #f7daed;
 	font-size: 3rem;
 	padding-bottom: 200px;
-	height: 90%;
+	height: 70vh;
 }
 
 .contact {
@@ -112,6 +112,14 @@ h3 {
 	padding-bottom: 30px;
 }
 
+.friend {
+	font-size: 1.5rem;
+}
+
+.github {
+	font-size: 1.5rem;
+}
+
 .content {
 	background-color: #f7daed;
 	font-size: 1rem;
@@ -127,12 +135,13 @@ h3 {
 	font-size: 1rem;
 	text-align: center;
 	display: flex;
-    flex-direction: column;
-	flex-wrap: wrap;
+	flex-direction: column;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 50px;
 	height: 90%;
+	text-align: center;
+	font-size: 1rem;
 }
 
 .links {
@@ -143,7 +152,7 @@ h3 {
 .links_nav {
 	font-size: 1.5rem;
 }
-
+ 
 .portfolio_page {
 	background-color: #f7daed;
 	padding-bottom: 10px;
@@ -151,11 +160,11 @@ h3 {
 
 }
 
-.portfolio1, .portfolio2, .portfolio3 {
+/*.portfolio {
 	text-align: center;
 	font-size: 1rem;
 }
-
+*/
 article, footer {
 	padding-left: 150px;
 	padding-right: 150px;
@@ -170,25 +179,27 @@ footer {
 	padding-bottom: 50px;
 }
 
-@media screen and (max-width: 600px) {
+	@media screen and (max-width: 600px) {
 
-.first_work, .second_work, .third_work {
-	width: 50%;
+		.first_work, .second_work, .third_work {
+			width: 50%;
+		}
+
+		h1, h2, .title {
+			font-size: 2rem;
+		}
+
+		p {
+			font-size: 1rem;
+		}
+
+		a {
+			font-size: 1rem;
+		}
+
+		.hello_stranger {
+			font-size: 2rem;
+		}
+		
 	}
-
-h1, h2, .title {
-	font-size: 2rem;
-	}
-
-p {
-	font-size: 1rem;
-	}
-
-a {
-	font-size: 1rem;
-	}
-
-.hello_stranger {
-	font-size: 2rem;
-}
 
