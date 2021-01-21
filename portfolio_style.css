@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Charm|Fredericka+the+Great');
+
+html {
+	font-family: "Fredericka the Great";
+	color: #5f6161;
+	font-size: 1rem;
+	
+}
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+	
+body {
+	background-color: white;
+}
+
+a {
+	color: white;
+	text-align: center;
+}
+
+a:hover {
+	color: #e00dbd
+}
+
+a:focus{
+	color:#e00dbd;
+}
+
+p {
+	text-align: center;
+}
+
+h1, h2 {
+	color: #b5b0b3;
+	text-align: center;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 5rem;	
+}
+
+h3 { 
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+.nav_bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #e69ccb;
+	color: white;
+	height: 50px;
+	padding: 10px;
+	width: 100%;
+
+}
+
+.section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.welcome {	
+	background-color: #f7daed;
+	font-size: 3rem;
+	padding-bottom: 200px;
+	height: 90%;
+}
+
+.contact {
+	background-color: #f7daed;
+	font-size: 2rem;
+	padding-bottom: 200px;
+	padding-top: 100px;
+	height: 90%;
+	text-align: center;
+}
+
+.title {
+	padding-bottom: 10px;
+	font-size: 5rem;
+}
+
+.email_me {
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.where {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 1.5rem;
+}
+
+.checkbox {
+	padding-bottom: 20px;
+	font-size: 1.5rem;
+}
+
+.enter_email {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.content {
+	background-color: #f7daed;
+	font-size: 1rem;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+	height: 90%;
+}
+
+.my_portfolio {
+	background-color: #f7daed;
+	font-size: 1rem;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	height: 90%;
+}
+
+.links {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.links_nav {
+	font-size: 1.5rem;
+}
+
+.portfolio_page {
+	background-color: #f7daed;
+	padding-bottom: 10px;
+	height: 90%;
+
+}
+
+.portfolio1, .portfolio2, .portfolio3 {
+	text-align: center;
+	font-size: 1rem;
+}
+
+article, footer {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.picture-of-me {
+	height: 220px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+
+.first_work, .second_work, .third_work {
+	width: 50%;
+	}
+
+h1, h2, .title {
+	font-size: 2rem;
+	}
+
+p {
+	font-size: 1rem;
+	}
+
+a {
+	font-size: 1rem;
+	}
+
+.hello_stranger {
+	font-size: 2rem;
+}
+
